@@ -1,0 +1,45 @@
+<html>
+<head>
+<style>
+body{
+  display:flex;
+  align-items:center;
+ justify-content:center;
+  border-red:2px;
+ 
+}
+form{
+border-style:groove;
+border-width:10px;
+margin:100px;
+padding:40px;
+background-color:#4dd0e1;
+}
+input{
+margin:10px;
+padding:10px;
+}
+label{
+  color:white;
+}
+button{
+  align-items:center;
+  justify-content:center;
+   padding:8px;
+}
+</style>
+<script src="formvali.js"></script>
+</head>
+<body>
+<form  >
+<h2 align="center" style="color:White;">User Form</h2><br>
+<label>Name:</label><br>
+<input type="text" id="name" placeholder="Enter Your Name"S><br>
+<label>Password:</label><br>
+<input type="password" id="pass" placeholder="Enter Password" required><br>
+<label>Email:</label><br>
+<input type="email" id="email" placeholder="UserName@gmail.com" required><br><br>
+<button onclick="validate()" type="submit">SUBMIT</button><br>
+</form>
+</body>
+</html>
